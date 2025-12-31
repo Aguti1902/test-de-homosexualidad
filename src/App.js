@@ -81,16 +81,6 @@ function App() {
                 ></div>
               </div>
             </div>
-
-            <div className="particles">
-              {[...Array(20)].map((_, i) => (
-                <div key={i} className="particle" style={{
-                  left: `${Math.random() * 100}%`,
-                  animationDelay: `${Math.random() * 2}s`,
-                  animationDuration: `${2 + Math.random() * 3}s`
-                }}></div>
-              ))}
-            </div>
           </>
         ) : (
           <div className="result-container">
